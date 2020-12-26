@@ -13,7 +13,7 @@ This colorscheme is totally not finish and I recommend using the gui of vim or n
   ```
   
 ## Contributing
-All contributions are so appreciated and I tottaly need your vim knowledge to make this theme perfect
+All contributions are so appreciated and I totally need your vim knowledge to make this theme perfect.
 
 ## TODO
 
