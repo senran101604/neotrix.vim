@@ -4,7 +4,7 @@
 This colorscheme is totally not finish and I recommend using the gui of vim or nvim
 
 ## Instalation
-1. Install the theme using your favorite vim plug in manager or manually place in `colors/neotrix.vim` directory in  `~/.vim/colors`
+1. Install the theme using your favorite vim plug in manager or manually place it in `colors/neotrix.vim` directory in  `~/.vim/colors`.
 2. Add the following to your `init.vim` or `.vimrc`:
   ```vim
   syntax on
@@ -18,5 +18,6 @@ All contributions are so appreciated and I totally need your vim knowledge to ma
 ## TODO
 
 * Add support for other plugins
+* Add support for some programming language.
 * Screenshots
 * Ensure support for terminals
