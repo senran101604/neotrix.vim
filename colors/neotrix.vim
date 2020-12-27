@@ -38,17 +38,17 @@ hi Function      guifg=#73C6B6
 hi Identifier    gui=none guifg=#FD971F
 hi Ignore        guifg=#33bb33
 hi IncSearch     guifg=#1d2021 guibg=#FD971F
-hi LineNr        guifg=#D4AC0D
+hi LineNr        guifg=#504945
 hi MatchParen    guifg=#2ECC71
 hi ModeMsg       gui=none
 hi MoreMsg       gui=none
-hi NonText       guifg=#b26818
+hi NonText       guifg=#FD971F
 
 if s:neotrix_dark_contrast == "hard"
     hi Normal        guifg=#FBF1C7 guibg=#17202A
     hi CursorLine    guibg=#1B2631
 elseif s:neotrix_dark_contrast == "retro"
-    hi Normal        guifg=#FBF1C7 guibg=#1d2021
+    hi Normal        guifg=#FBF1C7 guibg=#1A1A1A
     hi CursorLine    guibg=#282828
 else
     hi Normal        guifg=#FBF1C7 guibg=#1B2631
@@ -61,7 +61,7 @@ hi PmenuSbar     guifg=#1d2021 guibg=#337733
 hi PmenuThumb    guifg=#999999 guibg=#1d2021
 
 hi PreProc       guifg=#239b56
-hi Question      gui=none guifg=#F1C40F
+hi Question      gui=none guifg=#FD971F
 hi Search        guifg=#1d2021 guibg=#FD971F
 hi SignColumn    guifg=#239b56 guibg=#1d2021
 hi Special       guifg=#2ECC71
@@ -83,7 +83,7 @@ hi Title         guifg=#2ECC71 guibg=none
 hi Todo          gui=bold guibg=#336633 guifg=#FFFFFF
 hi Type          gui=none      guifg=#458588
 hi Underlined    gui=underline guifg=#336633
-hi Visual                      guibg=#3c3836
+hi Visual                      guibg=#504945
 hi VisualNOS     guifg=#1d2021 guibg=#228822
 hi VertSplit     guifg=#336633
 hi User1         gui=none guibg=#228822 guifg=#FF0000
@@ -94,11 +94,9 @@ hi WildMenu      guifg=#000099 guibg=#28B463
 " Common groups that link to other highlight definitions.
 
 hi link Character      Constant
-hi link Number         Function
+hi link Number         Constant
 hi link Boolean        Function
 hi link String         Constant
-
-hi link Operator       LineNr
 
 hi link Float          Number
 
@@ -107,15 +105,16 @@ hi link Include        PreProc
 hi link Macro          PreProc
 hi link PreCondit      PreProc
 
-hi link Repeat         Question
-
-hi link Conditional    Repeat
 
 hi link Delimiter      Special
 hi link SpecialChar    Special
 hi link SpecialComment Special
 hi link Tag            Special
 
+
+hi link Repeat        Statement
+hi link Operator      Statement
+hi link Conditional   Statement
 hi link Exception     Statement
 hi link Keyword       Statement
 hi link Label         Statement
