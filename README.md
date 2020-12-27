@@ -8,14 +8,16 @@ This colorscheme is totally not finish and I recommend using the gui of vim or n
   set termguicolors
   ```
 ## Screenshots
-### neotrix-medium
-![alt-text](https://github.com/senran101604/neotrix.vim/blob/main/screencaps/neotrix-medium.png)
+
+### neotrix-retro
+![alt-text](https://github.com/senran101604/neotrix.vim/blob/main/screencaps/neotrix-retro.png)
 
 ### neotrix-hard
 ![alt-text](https://github.com/senran101604/neotrix.vim/blob/main/screencaps/neotrix-dark.png)
 
-### neotrix-retro
-![alt-text](https://github.com/senran101604/neotrix.vim/blob/main/screencaps/neotrix-retro.png)
+### neotrix-medium
+![alt-text](https://github.com/senran101604/neotrix.vim/blob/main/screencaps/neotrix-medium.png)
+
 
 ## Contrast Options with a default value
 ```vim
