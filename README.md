@@ -7,15 +7,25 @@ This colorscheme is totally not finish and I recommend using the gui of vim or n
   colorscheme neotrix
   set termguicolors
   ```
+
+
+## TODOS
+* Add support for other plugins like airline
+* Add support for some programming language.
+* Screenshots
+* Refractor the code
+* Ensure support for terminals
+
 ## Screenshots
-### neotrix-medium
-![alt-text](https://github.com/senran101604/neotrix.vim/blob/main/screencaps/neotrix-medium.png)
+### neotrix-retro
+![alt-text](https://github.com/senran101604/neotrix.vim/blob/main/screencaps/neotrix-retro.png)
 
 ### neotrix-hard
 ![alt-text](https://github.com/senran101604/neotrix.vim/blob/main/screencaps/neotrix-dark.png)
 
-### neotrix-retro
-![alt-text](https://github.com/senran101604/neotrix.vim/blob/main/screencaps/neotrix-retro.png)
+### neotrix-medium
+![alt-text](https://github.com/senran101604/neotrix.vim/blob/main/screencaps/neotrix-medium.png)
+
 
 ## Contrast Options with a default value
 ```vim
@@ -29,9 +39,4 @@ let g:neotrix_dark_contrast = "galaxy_medium"
 ## Contributing
 I like help. If you want to make some changes feel free to open up a pull request and I'll gladly merge it.😃
 
-## TODO
 
-* Add support for other plugins like airline
-* Add support for some programming language.
-* Screenshots
-* Ensure support for terminals
