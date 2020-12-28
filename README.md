@@ -19,9 +19,9 @@ This colorscheme is totally not finish and I recommend using the gui of vim or n
 
 ## Contrast Options with a default value
 ```vim
-let g:neotrix_dark_contrast = "medium"
+let g:neotrix_dark_contrast = "galaxy_medium"
 ```
-* Possible values are: `medium`, `hard` and `retro`
+* Possible values are: `galaxy_medium`, `galaxy_hard` and `retro`
 
 ## Installation
 1.You can use your favorite plugin manager or manually place it in `colors/neotrix.vim` directory in  `~/.vim/colors`.
