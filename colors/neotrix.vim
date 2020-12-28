@@ -21,7 +21,7 @@ endif
 hi Cursor        guifg=#1d2021 guibg=#ffffff
 hi CursorIM      guifg=#1d2021 guibg=#336633
 hi CursorColumn  guibg=#663333
-hi ColorColumn          guibg=#1d2021
+hi ColorColumn   guibg=#1d2021
 hi Comment       guifg=#504945
 hi Constant      guifg=#CB4335
 hi Debug         guifg=#dc0000 guibg=#1d2021
