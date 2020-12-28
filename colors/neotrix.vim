@@ -16,6 +16,7 @@ if exists("g:neotrix_dark_contrast")
 else
     let s:neotrix_dark_contrast = "galaxy_medium"
 endif
+set background=dark
 
 hi Cursor        guifg=#1D2021 guibg=#FFFFFF
 hi CursorIM      guifg=#1D2021 guibg=#336633
@@ -40,6 +41,7 @@ hi MatchParen    guifg=#2ECC71
 hi ModeMsg       gui=none
 hi MoreMsg       gui=none
 hi NonText       guifg=#FD971F
+hi LineNr        guifg=#504945
 
 if s:neotrix_dark_contrast == "galaxy_hard"
     hi Normal        guifg=#FBF1C7 guibg=#17202A
@@ -89,7 +91,6 @@ hi WildMenu      guifg=#458588 guibg=#282828
 
 " **********************************************************************************************************************************
 " Common groups that link to other highlight definitions.
-hi link Comment         LineNr
 
 hi link Character       Constant
 hi link Number          Constant
@@ -115,12 +116,9 @@ hi link Operator        Statement
 hi link Conditional     Statement
 hi link Exception       Statement
 hi link Keyword         Statement
-hi link Label           Statement
 
 hi link StorageClass    Type
 hi link Structure       Type
 hi link Typedef         Type
 
-
-set background=dark
-" ********************************** ADD SUPPORTS ***********************************************************************
+" ********************************** ADD SUPPORTS OR REFRACTRO THE CODE ***********************************************************************
