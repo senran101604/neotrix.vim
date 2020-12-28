@@ -49,6 +49,9 @@ if s:neotrix_dark_contrast == "galaxy_hard"
 elseif s:neotrix_dark_contrast == "retro"
     hi Normal        guifg=#FBF1C7 guibg=#1A1A1A
     hi CursorLine    guibg=#282828
+elseif s:neotrix_dark_contrast == "retro_hard"
+    hi Normal     guifg=#FBF1C7 guibg=#0A0A0A
+    hi CursorLine    guibg=#1D2021
 else
     hi Normal        guifg=#FBF1C7 guibg=#1B2631
     hi CursorLine    guibg=#17202A

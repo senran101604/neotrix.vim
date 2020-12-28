@@ -20,6 +20,9 @@ This colorscheme is totally not finish and I recommend using the gui of vim or n
 ### neotrix-retro
 ![alt-text](https://github.com/senran101604/neotrix.vim/blob/main/screencaps/neotrix-retro.png)
 
+### neotrix-retro_hard
+![alt-text](https://github.com/senran101604/neotrix.vim/blob/main/screencaps/neotrix-retro_hard.png)
+
 ### neotrix-hard
 ![alt-text](https://github.com/senran101604/neotrix.vim/blob/main/screencaps/neotrix-dark.png)
 
