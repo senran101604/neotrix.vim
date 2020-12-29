@@ -37,7 +37,10 @@ let g:neotrix_dark_contrast = "galaxy_medium"
 * Possible values are: `galaxy_medium`, `galaxy_hard`, `retro`, and `retro_hard`
 
 ## Installation
-1.You can use your favorite plugin manager or manually place it in `colors/neotrix.vim` directory in  `~/.vim/colors`.
+1.You can use your favorite plugin manager or manually place it in `colors/neotrix.vim` directory in  `~/.vim/colors`.  
+np: make sure to specify the branch name to `main` since it is not using master branch anymore.
+- Vim Plug:
+`Plug 'senran101604/neotrix.vim', {'branch': 'main'}`
 
 ## Contributing
 I like help. If you want to make some changes feel free to open up a pull request and I'll gladly merge it.😃
