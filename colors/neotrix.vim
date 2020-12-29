@@ -85,7 +85,7 @@ hi Title         guifg=#2ECC71 guibg=none
 hi Todo          gui=bold guibg=#336633 guifg=#FFFFFF
 hi Type          gui=none      guifg=#458588
 hi Underlined    gui=underline guifg=#336633
-hi Visual                      guibg=#504945
+hi Visual                      guibg=#282828
 hi VisualNOS     guifg=#1D2021 guibg=#228822
 hi VertSplit     guifg=#336633
 hi User1         gui=none guibg=#228822 guifg=#DC0000
