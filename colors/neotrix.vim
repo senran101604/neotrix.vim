@@ -41,7 +41,7 @@ hi ColorColumn   guibg=#1D2021
 " Generic constant
 hi Constant      guifg=#CB4335
 " Number constant: 234, 0xff
-hi Number        guifg=#d3869b
+hi Number        guifg=#A569BD
 
 " debugging statements
 hi Debug         guifg=#DC0000 guibg=#1D2021
@@ -122,8 +122,8 @@ hi Search        guifg=#1D2021 guibg=#FD971F
 hi SignColumn    guifg=#239b56 guibg=#1D2021
 
 " any special symbol
-hi Special       guifg=#d3869b
-hi SpecialKey    guifg=#d3869b
+hi Special       guifg=#999999
+hi SpecialKey    guifg=#999999
 
 if has("spell")
   " word that is not recognized by the spellchecker
@@ -136,7 +136,8 @@ if has("spell")
     hi SpellRare     gui=undercurl guisp=#2ECC71
 endif
 
-hi Structure     guifg=#73C6B6
+" struct, union, enum, etc.
+hi Structure     guifg=#2ECC71
 " Generic statement
 hi Statement     gui=none               guifg=#F4D03F
 
@@ -216,8 +217,6 @@ hi link Label           Statement
 
 " static, register, volatile, etc
 hi link StorageClass    Special
-" struct, union, enum, etc.
-hi link Structure       Identifier
 " typedef
 hi link Typedef         Type
 
