@@ -88,9 +88,9 @@ end
 
 " any comment
 if s:neotrix_italicize_comments == 1
-  hi Comment       guifg=#504945 gui=italic
+  hi Comment       guifg=#228822 gui=italic
 else
-  hi Comment       guifg=#504945
+  hi Comment       guifg=#228822
 end
 
 " String constant:
@@ -106,7 +106,7 @@ hi Pmenu         guifg=#239b56 guibg=#282828
 " Popup menu: selected item
 hi PmenuSel      guifg=#1D2021 guibg=#999999
 " Popup menu: scrollbar
-hi PmenuSbar     guifg=#1D2021 guibg=#337733
+hi PmenuSbar     guifg=#1D2021 guibg=#239b56
 " Popup menu: scrollbar thumb
 hi PmenuThumb    guifg=#999999 guibg=#1D2021
 
@@ -148,7 +148,7 @@ hi StatusLineNC  gui=none guibg=#336633 guifg=#1D2021
 
 " Tab lines
 hi TabLine       guibg=#1D2021 guifg=#228822
-hi TabLineFill   guibg=#1D2021 guifg=#226622
+hi TabLineFill   guibg=#1D2021 guifg=#228822
 hi TabLineSel    guibg=#228822 guifg=#1D2021
 
 " Titles for output from :set all, :autocmd, etc.
