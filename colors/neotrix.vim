@@ -52,7 +52,7 @@ hi DiffChange    guifg=#1D2021 guibg=#007200
 hi DiffDelete    guifg=#1D2021 guibg=#DC0000
 hi DiffText      guifg=#28B463 guibg=#1D2021
 
-hi Directory     gui=bold guifg=#2ECC71 guibg=none
+hi Directory     gui=bold guifg=#2ECC71 guibg=NONE
 " any erroneous construct
 hi Error         gui=bold guifg=#FFFFFF guibg=#DC0000
 hi Folded        guifg=#20DE20 guibg=#1D2021
@@ -60,7 +60,7 @@ hi FoldColumn    guifg=#20DE20 guibg=#1D2021
 " Funcion name (also: methods for classes)
 hi Function      guifg=#73C6B6
 " Variable name self, this etc.
-hi Identifier    gui=none guifg=#FD971F
+hi Identifier    gui=NONE guifg=#FD971F
 hi IncSearch     guifg=#1D2021 guibg=#FD971F
 
 " Match paired bracket under the cursor
@@ -114,7 +114,7 @@ hi PmenuThumb    guifg=#999999 guibg=#1D2021
 hi PreProc       guifg=#FD971F
 
 " 'Press enter' prompt and yes/no questions
-hi Question      gui=none guifg=#FD971F
+hi Question      gui=NONE guifg=#FD971F
 
 "Last  Search pattern
 hi Search        guifg=#1D2021 guibg=#FD971F
@@ -139,12 +139,12 @@ endif
 " struct, union, enum, etc.
 hi Structure     guifg=#2ECC71
 " Generic statement
-hi Statement     gui=none               guifg=#F4D03F
+hi Statement     gui=NONE               guifg=#F4D03F
 
 " Status line of current window
-hi StatusLine    gui=none guibg=#228822 guifg=#1D2021
+hi StatusLine    gui=NONE guibg=#228822 guifg=#1D2021
 " status lines of not-current windows
-hi StatusLineNC  gui=none guibg=#336633 guifg=#1D2021
+hi StatusLineNC  gui=NONE guibg=#336633 guifg=#1D2021
 
 " Tab lines
 hi TabLine       guibg=#1D2021 guifg=#228822
@@ -152,12 +152,12 @@ hi TabLineFill   guibg=#1D2021 guifg=#228822
 hi TabLineSel    guibg=#228822 guifg=#1D2021
 
 " Titles for output from :set all, :autocmd, etc.
-hi Title         guifg=#2ECC71 guibg=none
+hi Title         guifg=#2ECC71 guibg=NONE
 
 " keywords TODO FIXME and XXX
 hi Todo          gui=bold guibg=#336633 guifg=#FFFFFF
 " int, long, char, etc.
-hi Type          gui=none      guifg=#458588
+hi Type          gui=NONE      guifg=#458588
 
 " Text that stands out
 hi Underlined    gui=underline guifg=#336633
