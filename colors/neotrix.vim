@@ -32,7 +32,7 @@ endif
 set background=dark
 
 " Character under the cursor
-hi Cursor        guifg=#1D2021 guibg=#FFFFFF
+hi Cursor        guifg=#1D2021 guibg=#FFFFF0
 " like Cursor, but used when in IME mode
 hi CursorIM      guifg=#1D2021 guibg=#336633
 " used for the columns set with 'colorcolumn'
@@ -54,7 +54,7 @@ hi DiffText      guifg=#28B463 guibg=#1D2021
 
 hi Directory     gui=bold guifg=#2ECC71 guibg=NONE
 " any erroneous construct
-hi Error         gui=bold guifg=#FFFFFF guibg=#DC0000
+hi Error         gui=bold guifg=#FFFFF0 guibg=#DC0000
 hi Folded        guifg=#20DE20 guibg=#1D2021
 hi FoldColumn    guifg=#20DE20 guibg=#1D2021
 " Funcion name (also: methods for classes)
@@ -73,16 +73,16 @@ hi NonText       guifg=#FD971F
 hi LineNr        guifg=#504945
 
 if s:neotrix_dark_contrast == "galaxy_hard"
-    hi Normal        guifg=#FBF1C7 guibg=#17202A
+    hi Normal        guifg=#FFFFF0 guibg=#17202A
     hi CursorLine    guibg=#1B2631
 elseif s:neotrix_dark_contrast == "retro"
-    hi Normal        guifg=#FBF1C7 guibg=#1A1A1A
+    hi Normal        guifg=#FFFFF0 guibg=#1A1A1A
     hi CursorLine    guibg=#282828
 elseif s:neotrix_dark_contrast == "retro_hard"
-    hi Normal        guifg=#FBF1C7 guibg=#0A0A0A
+    hi Normal        guifg=#FFFFF0 guibg=#0A0A0A
     hi CursorLine    guibg=#1D2021
 else
-    hi Normal        guifg=#FBF1C7 guibg=#1B2631
+    hi Normal        guifg=#FFFFF0 guibg=#1B2631
     hi CursorLine    guibg=#17202A
 end
 
@@ -155,7 +155,7 @@ hi TabLineSel    guibg=#228822 guifg=#1D2021
 hi Title         guifg=#2ECC71 guibg=NONE
 
 " keywords TODO FIXME and XXX
-hi Todo          gui=bold guibg=#336633 guifg=#FFFFFF
+hi Todo          gui=bold guibg=#336633 guifg=#FFFFF0
 " int, long, char, etc.
 hi Type          gui=NONE      guifg=#458588
 
